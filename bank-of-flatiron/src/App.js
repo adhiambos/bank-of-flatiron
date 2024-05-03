@@ -1,6 +1,11 @@
-
+import React from "react";
+import TransactionTable from "./components/TransactionTable";
 const App = () => {
-  return (  );
+  return ( 
+    <div>
+    <TransactionTable/>
+    </div>
+   );
 }
  
 export default App;
